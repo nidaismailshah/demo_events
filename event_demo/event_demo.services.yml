@@ -1,0 +1,6 @@
+services:
+  event_demo.alter_response:
+    class: Drupal\event_demo\EventSubscriber\AlterResponse
+    arguments: [ '@logger.factory' ]
+    tags:
+      - { name: event_subscriber }

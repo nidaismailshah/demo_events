@@ -1,0 +1,4 @@
+name: Config forms
+description: Demo on how to buil custom config forms
+core: 8.x
+type: module
